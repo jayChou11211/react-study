@@ -11,12 +11,12 @@ export const basicData = [
     // }, 
     {
       // title: 'm18205556911_1@163.com',
-      title: '13316793472@163.com',
+      title: 'starlink_7835@163.com',
       icon: 'mail',
     },
     {
       // title: '18205556911',
-      title: '13316793472',
+      title: '13085077591',
       icon: 'phone',
     },
 ]
@@ -25,6 +25,11 @@ export const excellentData = [
   {
     title:
       '熟悉使用 ReactJs / NextJs, 及相关技术栈: React Hooks, React Router, Redux, Zustand, ImmerJs. vue技术栈亦可完成业务需求',
+    content: '',
+  },
+    {
+    title:
+     '探究并实践AI对编程的提升，综合 利用 skills agent mcp 生成代码，和查找 bug, 文档生成, 目前后台管理可代替40% 工作量，C端可以代替 30% 的 代码书写。',
     content: '',
   },
   {
@@ -289,6 +294,19 @@ export const projectData = [
             // <a href="https://alpha.talentre.com/home/referral">
             //   web3 的 talentre
             // </a>
+
+
+    {
+      title: "主交易站前端性能优化",
+      techStack: ["Reactjs + Nextjs + Redux + Webpack + WebSocket + Tailwindcss。"],
+    projectInfo: "针对合约交易主站页面加载缓慢、交易操作卡顿、内存占用过高的问题，主导开展专项性能优化，保障交易体验的实时性与流畅性。",
+mainJobs: [
+  "1. 利用Lighthouse和Performance工具分析性能瓶颈，识别出首屏资源过大、组件过度渲染、WebSocket数据更新冗余等问题；实施路由级和组件级代码拆分",
+  "2. 配合Next.js dynamic实现按需加载，将首屏JS体积减少40%；优化Webpack构建配置，开启持久化缓存、多进程打包及并行压缩，构建时间从2分30秒压缩至35秒；重构资产列表和仓位列表，采用虚拟滚动替代全量渲染，列表渲染节点数从2000+降至20+；",
+  "3. 优化Redux状态设计，引入reselect缓存高频计算数据，减少70%的无效重渲染；",
+"4. 对WebSocket推送的marketPrice数据进行差分比较，仅更新变更的symbol数据，避免全量更新导致的界面卡顿"],
+mainAchivements: ["1.首屏可交互时间由3.5秒优化至1.8秒，交易操作响应延迟降低60%，","2.页面帧率稳定在60fps，内存占用峰值下降45%，获得产品及用户高度认可。"]
+    },        
     {
     title: <span>
             <a href="javascript:void(0);">web3 的 defi</a> 和 &nbsp;
