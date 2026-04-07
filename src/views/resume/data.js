@@ -11,12 +11,12 @@ export const basicData = [
     // }, 
     {
       // title: 'm18205556911_1@163.com',
-      title: 'starlink_7835@163.com',
+      title: 'arclight_2024@sina.com',
       icon: 'mail',
     },
     {
       // title: '18205556911',
-      title: '13085077591',
+      title: '13005610212',
       icon: 'phone',
     },
 ]
@@ -54,7 +54,7 @@ export const workData = [
   {
     name: 'XCoin',
     title: '资深前端开发',
-    time: '2024.11 - 2025.11',
+    time: '2024.11 - ',
     jobs: [
       {
         title: <span>合约现货页面开发</span>,
