@@ -1,0 +1,16 @@
+{
+  "name": "git-tools",
+  "tools": [
+    {
+      "name": "git.diff",
+      "description": "获取改动"
+    },
+    {
+      "name": "git.commit",
+      "description": "提交代码",
+      "parameters": {
+        "message": "string"
+      }
+    }
+  ]
+}

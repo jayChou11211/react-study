@@ -5,7 +5,6 @@ import store from '@/main'
 import {getQueryString} from './utils'
 
 function checkStatus(response) {
-	debugger
 	if (response.status >= 200 && response.status < 300) {
 		return response;
   }
@@ -59,13 +58,17 @@ export default function request(url, options) {
     .then(response =>response.json())
     .then((res)=>{
 			const {location:{href}} = window;
-			let redirct = (href.split('#')[1])
+			let redirct = href.split('#')[1] || '/'
       if(res.data&&res.data.code==401){
 				const {dispatch} = store
 				if(redirct.indexOf('redirct')>=1){
 					const redirctArr = redirct.split('?')||[]
 					redirct = getQueryString("redirct",(redirctArr[redirctArr.length-1]))
-					redirct = decodeURI(escape(redirct))
+					if (redirct) {
+						redirct = decodeURI(escape(redirct))
+					} else {
+						redirct = '/'
+					}
 					//debugger;
 					dispatch(routerRedux.push(`/login?redirct=${redirct}`))
 				}else{

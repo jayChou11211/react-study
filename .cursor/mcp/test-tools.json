@@ -1,0 +1,9 @@
+{
+  "name": "test-tools",
+  "tools": [
+    {
+      "name": "test.run",
+      "description": "运行测试"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "file-tools",
+  "tools": [
+    {
+      "name": "file.search",
+      "description": "搜索代码",
+      "parameters": {
+        "query": "string"
+      }
+    },
+    {
+      "name": "file.create",
+      "description": "创建文件",
+      "parameters": {
+        "path": "string",
+        "content": "string"
+      }
+    },
+    {
+      "name": "file.edit",
+      "description": "修改文件",
+      "parameters": {
+        "path": "string",
+        "diff": "string"
+      }
+    }
+  ]
+}
