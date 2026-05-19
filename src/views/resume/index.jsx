@@ -100,14 +100,20 @@ const MyResume = () => {
                     </div>
                   ))}
               </div>
-              <div>-- 主要成就:</div>
+              
               <div className="mainJobs">
                 {Array.isArray(mainAchivements) &&
-                  mainAchivements.map((item, index) => (
+                <>
+                <div>-- 主要成就:</div>
+                {
+                    mainAchivements.map((item, index) => (
                     <div className="" key={index}>
                       {item}
                     </div>
-                  ))}
+                  ))
+                }
+                </>
+                }
               </div>
             </div>
           )

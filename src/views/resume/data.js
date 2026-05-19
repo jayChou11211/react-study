@@ -1,24 +1,24 @@
 import React from 'react'
 // 基本信息
 export const basicData = [
-    {
-      title: 'male',
-      icon: 'user',
-    },
-    // {
-    //   title: 'remote',
-    //   icon: 'heart',
-    // }, 
-    {
-      // title: 'm18205556911_1@163.com',
-      title: 'arclight_2024@sina.com',
-      icon: 'mail',
-    },
-    {
-      // title: '18205556911',
-      title: '13005610212',
-      icon: 'phone',
-    },
+  {
+    title: 'male',
+    icon: 'user',
+  },
+  // {
+  //   title: 'remote',
+  //   icon: 'heart',
+  // }, 
+  {
+    // title: 'm18205556911_1@163.com',
+    title: 'arclight_2024@sina.com',
+    icon: 'mail',
+  },
+  {
+    // title: '18205556911',
+    title: '13005610212',
+    icon: 'phone',
+  },
 ]
 // 优势
 export const excellentData = [
@@ -27,9 +27,9 @@ export const excellentData = [
       '熟悉使用 ReactJs / NextJs, 及相关技术栈: React Hooks, React Router, Redux, Zustand, ImmerJs. vue技术栈亦可完成业务需求',
     content: '',
   },
-    {
+  {
     title:
-     '探究并实践AI对编程的提升，综合 利用 skills agent mcp 生成代码，和查找 bug, 文档生成, 目前后台管理可代替40% 工作量，C端可以代替 30% 的 代码书写。',
+      '探究并实践AI对编程的提升，综合 利用 skills agent mcp 生成代码，和查找 bug, 文档生成, 目前后台管理可代替40% 工作量，C端可以代替 30% 的 代码书写。',
     content: '',
   },
   {
@@ -37,7 +37,7 @@ export const excellentData = [
       '有过性能优化经验，实际项目中会综合 js react 框架和社区方案，对整体加载和运行时性能进行优化。做过性能和报错线上监控方案落地',
     content: '',
   },
-    {
+  {
     title:
       '熟悉 cex 合约 现货业务，从0到1做过 合约交易站，包括 orderBook, Kline, 下单仓位，熟悉cex整体数据流和架构',
     content: '',
@@ -268,7 +268,7 @@ export const workData = [
 
 // project 项目
 export const projectData = [
-    {
+  {
     title: <span>交易组件业务迭代和性能优化</span>,
     techStack: [
       'TypeScript',
@@ -290,37 +290,59 @@ export const projectData = [
     ],
   },
   // web3
-            //   <a href="https://web3edu.xyz/profile">web3 的 defi</a> &nbsp;
-            // <a href="https://alpha.talentre.com/home/referral">
-            //   web3 的 talentre
-            // </a>
+  //   <a href="https://web3edu.xyz/profile">web3 的 defi</a> &nbsp;
+  // <a href="https://alpha.talentre.com/home/referral">
+  //   web3 的 talentre
+  // </a>
 
 
-    {
-      title: "主交易站前端性能优化",
-      techStack: ["Reactjs + Nextjs + Redux + Webpack + WebSocket + Tailwindcss。"],
+  {
+    title: "主交易站前端性能优化",
+    techStack: ["Reactjs + Nextjs + Redux + Webpack + WebSocket + Tailwindcss。"],
     projectInfo: "针对合约交易主站页面加载缓慢、交易操作卡顿、内存占用过高的问题，主导开展专项性能优化，保障交易体验的实时性与流畅性。",
-mainJobs: [
-  "1. 利用Lighthouse和Performance工具分析性能瓶颈，识别出首屏资源过大、组件过度渲染、WebSocket数据更新冗余等问题；实施路由级和组件级代码拆分",
-  "2. 配合Next.js dynamic实现按需加载，将首屏JS体积减少40%；优化Webpack构建配置，开启持久化缓存、多进程打包及并行压缩，构建时间从2分30秒压缩至35秒；重构资产列表和仓位列表，采用虚拟滚动替代全量渲染，列表渲染节点数从2000+降至20+；",
-  "3. 优化Redux状态设计，引入reselect缓存高频计算数据，减少70%的无效重渲染；",
-"4. 对WebSocket推送的marketPrice数据进行差分比较，仅更新变更的symbol数据，避免全量更新导致的界面卡顿"],
-mainAchivements: ["1.首屏可交互时间由3.5秒优化至1.8秒，交易操作响应延迟降低60%，","2.页面帧率稳定在60fps，内存占用峰值下降45%，获得产品及用户高度认可。"]
-    },        
-    {
+    mainJobs: [
+      "1. 利用Lighthouse和Performance工具分析性能瓶颈，识别出首屏资源过大、组件过度渲染、WebSocket数据更新冗余等问题；实施路由级和组件级代码拆分",
+      "2. 配合Next.js dynamic实现按需加载，将首屏JS体积减少40%；优化Webpack构建配置，开启持久化缓存、多进程打包及并行压缩，构建时间从2分30秒压缩至35秒；重构资产列表和仓位列表，采用虚拟滚动替代全量渲染，列表渲染节点数从2000+降至20+；",
+      "3. 优化Redux状态设计，引入reselect缓存高频计算数据，减少70%的无效重渲染；",
+      "4. 对WebSocket推送的marketPrice数据进行差分比较，仅更新变更的symbol数据，避免全量更新导致的界面卡顿"],
+    mainAchivements: ["1.首屏可交互时间由3.5秒优化至1.8秒，交易操作响应延迟降低60%，", "2.页面帧率稳定在60fps，内存占用峰值下降45%，获得产品及用户高度认可。"]
+  },
+  {
+    title: "交易站 SEO 治理",
+    projectInfo: "SEO灾难：爬虫抓取时HTML为空（白屏），索引覆盖率不足30%；Core Web Vitals极差：LCP > 4.5s，CLS > 0.3，FID > 150ms；",
+    mainJobs: [
+      `1. 引入 SSR
+使用Next.js 14的App Router，对高频流量页面采用ISR（Incremental Static Regeneration），对低频但必需页面采用SSG预构建，核心模板页配置revalidate: 3600。
+每个程序化页面通过generateStaticParams生成静态路径，同时配合fetch缓存策略（Cache-Control: stale-while-revalidate）。爬虫抓取时直接获得完整HTML，索引率提升至92%。`,
+      `2. 结构化数据与语义化HTML
+为每个页面动态注入Schema.org (JSON-LD)，包括 symbol 、合约 现货，品牌名、FAQ等。自动生成description、keywords，并利用H1-H2层级、面包屑导航增强语义。
+编写脚本检测程序化页面的“文本独特性”，对关键词密度、同义词替换做自动变异，避免内容重复惩罚。`,
+      `3. Core Web Vitals系统性优化
+LCP优化
+使用next/image组件配合priority属性，为LCP元素（主视觉图）预加载。
+实现响应式图片自动生成：根据视口宽度动态请求WebP格式（imageSet + 服务端图像优化），从平均1.2MB降至80KB。
+结果：LCP从4.2s → 1.8s（移动端模拟Fast 3G）。`,
+        `4. FID / INP优化
+页面大量交互（筛选按钮、电话咨询埋点）导致主线程长任务。
+改造点是 将点击事件从被动监听改为passive: true，并拆分长任务（setTimeout或requestIdleCallback处理非紧急逻辑）
+使用Web Worker异步处理埋点数据聚合，避免阻塞UI线程。
+结果：FID从110ms降至42ms，INP（Interaction to Next Paint）<150ms。`
+    ]
+  },
+  {
     title: <span>
-            <a href="javascript:void(0);">web3 的 defi</a> 和 &nbsp;
-            <a href="javascript:void(0);">
-              web3 的 socialFi
-            </a>
-          </span>,
+      <a href="javascript:void(0);">web3 的 defi</a> 和 &nbsp;
+      <a href="javascript:void(0);">
+        web3 的 socialFi
+      </a>
+    </span>,
     techStack: [
-          'Web3js',
-          'Material-Ui',
-          'Wagmi',
-          'React',
-          'Redux',
-          'React-Router',
+      'Web3js',
+      'Material-Ui',
+      'Wagmi',
+      'React',
+      'Redux',
+      'React-Router',
     ],
     projectInfo:
       '项目的搭建, 框架的引入, ui组件库的主题改造, 合约的调用， mint NFT',
