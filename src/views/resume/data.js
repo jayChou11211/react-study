@@ -29,7 +29,7 @@ export const excellentData = [
   },
   {
     title:
-      '探究并实践AI对编程的提升，综合 利用 skills agent mcp 生成代码，和查找 bug, 文档生成, 目前后台管理可代替40% 工作量，C端可以代替 30% 的 代码书写。',
+      '探究并实践AI对编程的提效， 善于使用 cursor, codex 开发工具，使用 swagger figma mcp 能力 生成代码，项目配置 skills 和 agent 快速完成业务迭代和bug查找。',
     content: '',
   },
   {
@@ -53,7 +53,7 @@ export const excellentData = [
 export const workData = [
   {
     name: 'XCoin',
-    title: '资深前端开发',
+    title: '资深前端架构师',
     time: '2024.11 - ',
     jobs: [
       {
